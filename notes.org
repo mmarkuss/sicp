@@ -1,0 +1,10 @@
+
+* Primitive predicates
+  - <, >, =
+* Substitution model
+  - Extract compound procedure level by level by substituting each level by smaller procedure
+
+* Orders (applicative and normal)
+  - normal-order evaluation: fully expand and then reduce
+  - applicative-order evaluation: evaluate the arguments and then apply
+    - lisp uses this 
